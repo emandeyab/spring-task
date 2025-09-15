@@ -19,7 +19,7 @@ public class SpringTaskApplication {
 		employeeService.addEmp(new Employee(1, "Eman", 40000.0));
 		employeeService.addEmp(new Employee(2, "Ali", 20000.0));
 		employeeService.addEmp(new Employee(3, "Sara", 30000.0));
-		employeeService.addEmp(new Employee(4, "Emad", 15000.0));
+		employeeService.addEmp(new Employee(4, "Ehab", 15000.0));
 
 		//print
 		employeeService.getEmployee().values().forEach(System.out::println);
